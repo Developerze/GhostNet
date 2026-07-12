@@ -1,0 +1,47 @@
+{
+  "id": "ghostmarket",
+  "name": "GhostMarket: Broker Network",
+  "version": "2.4.0",
+  "apiVersion": 1,
+  "author": "jlind",
+  "description": "A v2 underground broker network for HackHub with a first-run tutorial, harsher heat danger curve, separate Amazin PrimeWire shopping website, 64 purchasable items, applications, a 10,000-rep rank ladder, hidden admin panel, intel probes, faction standing, escrow, upgrades, and history.",
+  "icon": "assets/icon.png",
+  "cover": "assets/cover.png",
+  "permissions": [
+    "bank",
+    "events",
+    "mail"
+  ],
+  "dependencies": [],
+  "tags": [
+    "website",
+    "desktop-app",
+    "missions",
+    "economy",
+    "progression",
+    "procedural",
+    "roleplay"
+  ],
+  "features": [
+    "Rotating procedural contract board",
+    "Separate primewire.shop shopping website",
+    "First-run tutorial and reusable Guide screen",
+    "Reset progress starts the tutorial again",
+    "Nonlinear heat danger curve: high heat sharply increases failure chance",
+    "Wealth-aware high-stakes payout tuning",
+    "Intel probe action with heat reduction",
+    "Faction standing and broker network screen",
+    "Expanded eleven-category marketplace with sixty-four purchasable listings",
+    "Ten permanent upgrade tracks",
+    "Expanded rank ladder up to SHADOW GOVERNMENT LEADER at 10,000 reputation",
+    "Secret admin panel unlocked from the GhostMarket logo",
+    "Admin reset button for wiping GhostMarket progress without changing bank balance",
+    "Completion streaks and critical successes",
+    "Multi-stage risk and approach decisions",
+    "Persistent reputation and heat systems",
+    "Bank or bonus escrow payouts",
+    "Escrow laundering with upgradeable fees",
+    "Contract history and operation log",
+    "Optional GoMail completion notices"
+  ]
+}
