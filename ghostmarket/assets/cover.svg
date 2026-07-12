@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="576" viewBox="0 0 1024 576">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07100f"/>
+      <stop offset="0.48" stop-color="#080b11"/>
+      <stop offset="1" stop-color="#10101a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(188 126) rotate(36) scale(440 350)">
+      <stop offset="0" stop-color="#56f3b3" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#56f3b3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#56f3b3"/>
+      <stop offset="1" stop-color="#64d9ff"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="25" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#8ba4ad" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1024" height="576" fill="url(#bg)"/>
+  <rect width="1024" height="576" fill="url(#glow)"/>
+  <rect width="1024" height="576" fill="url(#grid)"/>
+  <circle cx="850" cy="90" r="170" fill="#704eff" opacity="0.055" filter="url(#blur)"/>
+  <g opacity="0.38" fill="none" stroke="#56f3b3" stroke-width="1">
+    <path d="M30 468 C180 390 266 518 410 424 S690 325 994 418"/>
+    <path d="M-12 504 C172 420 286 552 438 456 S724 370 1042 454" opacity="0.35"/>
+  </g>
+  <g transform="translate(72 76)" filter="url(#shadow)">
+    <rect width="126" height="126" rx="28" fill="#0c1517" stroke="#56f3b3" stroke-opacity="0.65" stroke-width="2"/>
+    <path d="M35 43 63 27l28 16v35L63 95 35 78Z" fill="none" stroke="url(#line)" stroke-width="5"/>
+    <path d="m47 49 16 10 16-10M63 59v24" fill="none" stroke="#dffcf1" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="63" cy="59" r="5" fill="#56f3b3"/>
+  </g>
+  <g transform="translate(72 242)">
+    <text x="0" y="0" fill="#56f3b3" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="5">ENCRYPTED BROKER NETWORK</text>
+    <text x="0" y="86" fill="#f0f7fa" font-family="Segoe UI, Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="-4">GhostMarket</text>
+    <rect x="2" y="112" width="485" height="3" rx="2" fill="url(#line)" opacity="0.9"/>
+    <text x="0" y="158" fill="#8fa0ac" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="500">Contracts  /  Heat  /  Reputation  /  Escrow</text>
+  </g>
+  <g transform="translate(706 184)" filter="url(#shadow)">
+    <rect width="242" height="262" rx="18" fill="#0c1118" stroke="#263340"/>
+    <text x="22" y="34" fill="#80909f" font-family="Consolas, monospace" font-size="11" letter-spacing="2">LIVE CONTRACT</text>
+    <text x="22" y="67" fill="#edf7f4" font-family="Consolas, monospace" font-size="19" font-weight="700">NIGHT PARLIAMENT</text>
+    <text x="22" y="93" fill="#56f3b3" font-family="Consolas, monospace" font-size="13">$2,250,000</text>
+    <g transform="translate(22 120)">
+      <rect width="198" height="7" rx="4" fill="#1b252f"/><rect width="154" height="7" rx="4" fill="url(#line)"/>
+      <rect y="30" width="198" height="7" rx="4" fill="#1b252f"/><rect y="30" width="118" height="7" rx="4" fill="#56f3b3" opacity="0.75"/>
+      <rect y="60" width="198" height="7" rx="4" fill="#1b252f"/><rect y="60" width="82" height="7" rx="4" fill="#ffbe55" opacity="0.85"/>
+    </g>
+    <rect x="22" y="216" width="94" height="26" rx="7" fill="#173a31" stroke="#56f3b3" stroke-opacity="0.45"/>
+    <text x="69" y="234" text-anchor="middle" fill="#9bffd6" font-family="Segoe UI, Arial" font-size="10" font-weight="700">ACCEPT</text>
+    <rect x="126" y="216" width="94" height="26" rx="7" fill="#111923" stroke="#344453"/>
+    <text x="173" y="234" text-anchor="middle" fill="#64d9ff" font-family="Segoe UI, Arial" font-size="10" font-weight="700">ESCROW</text>
+  </g>
+  <text x="72" y="536" fill="#61717c" font-family="Consolas, monospace" font-size="11" letter-spacing="2">NO ATTRIBUTION  //  NO SECOND ATTEMPT</text>
+</svg>
